@@ -97,5 +97,5 @@ app.get('*',(req,res)=>{
 
 //app.com
 app.listen(3000, ()=>{
-    console.log('server is started')
+    
 })
