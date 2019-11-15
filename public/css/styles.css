@@ -1,9 +1,9 @@
 body{
     color:#333333;
     font-family:arial;
-    max-width:650px;
+    max-width:50%;
     margin:0 auto;
-    padding: 0 16px;
+    padding: 0 4%;
     display:flex;
     flex-direction: column;
     min-height:100vh;
@@ -12,15 +12,15 @@ body{
 footer{
     color:#888888;
     border-top:1px solid #eeeeee;
-    margin-top:16px;
-    padding:16px;
+    margin-top:4%;
+    padding:4%;
 }
 header{
     margin-top:16px;
     margin-bottom:48px;
 }
 h1{
-    font-size:64px;
+    font-size:6em;
     margin-bottom:16px;
 }
 
