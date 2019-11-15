@@ -8,6 +8,7 @@ const hbs = require('hbs')
 const app = express()
 const viewsPath = path.join(__dirname,'../templates/views')
 const partialsPath = path.join(__dirname,'../templates/partials')
+const port = process.env.PORT || 3000
 
 //set a setting for express server..
 app.set('view engine','hbs')
@@ -96,6 +97,6 @@ app.get('*',(req,res)=>{
 
 
 //app.com
-app.listen(3000, ()=>{
-    
+app.listen(port, ()=>{
+    console.log('Server is up at port - ')
 })
