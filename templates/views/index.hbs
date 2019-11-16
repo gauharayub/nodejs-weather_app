@@ -4,9 +4,10 @@
         <title>Weather</title>
         <link rel="icon" href="/img/weather.png">
         <link rel='stylesheet' href ='/css/styles.css'>
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="main-content">
+        <div class="container main-content">
             {{>header}}
             <p>A site to get weather of any location</p>
             <form action="">
@@ -16,7 +17,7 @@
             <p id="message-1"></p>
             <p id="message-2"></p>
         </div>
-        {{>footer}}
+       {{>footer}}
 
         <script src='/js/app.js'></script>
     </body>
